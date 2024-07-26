@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6b46c1;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #6b46c1;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background-color: #6b46c1;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #553c9a;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #6b46c1;
+    border: 2px solid #6b46c1;
+}
+
+.btn-secondary:hover {
+    background-color: #6b46c1;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: white;
+    background-image: url('F:\Manage_hub\public\hero.jpg');
+    background-size: cover;
+    background-position: center;
+    line-height: 22vh;
+}
+
+.main-title {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.main-subtitle {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.features, .productivity, .footer {
+    background-color: #f7fafc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.feature-item {
+    background-color: white;
+    padding: 20px 20px 8px 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.feature-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.feature-description {
+    color: #718096;
+    font-size: 14px;
+}
+
+.section-title1{
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   color: #6d33ef;
+}
+.section-description {
+    margin-bottom: 20px;
+    
+}
+.foot-desc{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6b46c1;
+}
+
+.newsletter {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-input {
+    padding: 4.3px;
+    border: 1px solid #cbd5e0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.newsletter button{
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.footer-link {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 600;
+}
+.footer-links div{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+}
+.footer-links div li{
+    font-size: 12px;
+    
+}
+.main-footer div p{
+    padding-top: 15px;
+}
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 5px;
+   
+
+}
+
+.fa-instagram{
+    border-radius: 6px;
+    color: white;
+    padding: 2.5px;
+    background: linear-gradient(180deg, #4c568ac4, #5851DB, #833AB4, #c13584, #E1306c, #FD1D1D);
+}
+.fa-facebook{
+    font-size: 21px;
+    padding: 2.5px;
+}
+.footer-link:hover {
+    color: #6b46c1;
+}
+.fa-twitter{
+    font-size: 21px;
+    padding: 2.5px;
+}
+.fa-linkedin{
+    font-size: 21px;
+    padding:2.5px
+}
+.social-media {
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #4a5568;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #6b46c1;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
