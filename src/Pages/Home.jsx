@@ -12,7 +12,7 @@ export default function Home() {
                 <a href="#" className="nav-link">Integrations</a>
                 <a href="#" className="nav-link">Apps</a>
             </nav>
-            <div className="cta-buttons">
+            <div  className="cta-buttons">
                 <button className="btn btn-primary">Get Started</button>
                 <button className="btn btn-secondary">Sign In</button>
             </div>
